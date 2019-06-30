@@ -2,12 +2,12 @@
 
 namespace MyHealthTracker.Data
 {
-    public class Health
+    public class HealthRecord
     {
      
         public int RecordId { get; set; }
 
-        public Guid OwnerId { get; set; }
+        public Guid UserId { get; set; }
 
         [System.ComponentModel.DisplayName("First Name")]
         public string FirstName { get; set; }

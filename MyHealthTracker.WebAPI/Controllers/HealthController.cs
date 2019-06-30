@@ -13,17 +13,17 @@ namespace MyHealthTracker.WebAPI.Controllers
     [ApiController]
     public class HealthController : ControllerBase
     {
-        private readonly HealthContext _context;
+        private readonly DbContext _context;
 
-        public HealthController(HealthContext context)
+        public HealthController(DbContext context)
         {
             _context = context;
 
-            if(_context.HealthItems.Count() ==0)
+            if(_context.HealthRecords.Count() ==0)
             {
                 // Create a new HealthItem if collection is empty,
                 // which means you can't delete all HealthItems.
-                _context.HealthItems.Add(new Health { RecordId = 1 });
+                _context.HealthRecords.Add(new HealthRecord { RecordId = 1 });
                 _context.SaveChanges();
             }
         }

@@ -30,7 +30,7 @@ namespace MyHealthTracker.WebAPI
         //container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<HealthContext>(opt =>
+            services.AddDbContext<Models.DbContext>(opt =>
                 opt.UseInMemoryDatabase("HealthList"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

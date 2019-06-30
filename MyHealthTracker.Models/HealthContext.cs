@@ -3,13 +3,23 @@ using MyHealthTracker.Data;
 
 namespace MyHealthTracker.Models
 {
-    public class HealthContext : DbContext
+    public class DbContext : Microsoft.EntityFrameworkCore.DbContext
     {
-        public HealthContext(DbContextOptions<HealthContext> options)
+        public DbContext(DbContextOptions<DbContext> options)
             : base(options)
         {
 
         }
-        public DbSet<Health> HealthItems { get; set; }
+
+        public DbContext()
+        {
+        }
+
+        public static DbContext Create()
+        {
+            return new DbContext();
+        }
+
+        public DbSet<HealthRecord> HealthRecords { get; set; }
     }
 }
