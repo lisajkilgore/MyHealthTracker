@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyHealthTracker.Models
 {
-    class HealthListItem
+    public class HealthListItem
     {
         public int RecordId { get; set; }
         public Guid UserId { get; set; }

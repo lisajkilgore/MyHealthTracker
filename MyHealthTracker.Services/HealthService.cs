@@ -20,7 +20,7 @@ namespace MyHealthTracker.Services
 
         public bool CreateHealthRecord(HealthCreate model)
         {
-            using (Models.DbContext ctx = new Models.DbContext())
+            using (var ctx = new Models.DbContext())
             {
                 HealthRecord healthRecord = new HealthRecord()
                 {
@@ -48,7 +48,7 @@ namespace MyHealthTracker.Services
                 return ctx.SaveChanges() == 1;
             }
         }
-        public IEnumerable<HealthCreate> GetHealthRecord()
+        public IEnumerable<HealthListItem> GetHealthRecord()
         {
             using (var ctx = new Models.DbContext())
             {
@@ -58,7 +58,7 @@ namespace MyHealthTracker.Services
                     .Where(e => e.UserId == _userId)
                     .Select(
                         e =>
-                        new HealthCreate
+                        new HealthListItem
                         {
                             RecordId = e.RecordId,
                             UserId = e.UserId,
@@ -84,7 +84,7 @@ namespace MyHealthTracker.Services
                 return query.ToArray();
             }
         }
-        public HealthCreate GetHealthRecordbyId(int recordId)
+        public HealthDetail GetHealthRecordbyId(int recordId)
         {
             using (var ctx = new Models.DbContext())
             {
@@ -93,9 +93,73 @@ namespace MyHealthTracker.Services
                     .HealthRecords
                     .Single(e => e.RecordId == recordId && e.UserId == _userId);
                 return
-                    new HealthCreate
+                    new HealthDetail
+                    {
+                        RecordId = entity.RecordId,
+                        UserId = entity.UserId,
+                        FirstName = entity.FirstName,
+                        LastName = entity.LastName,
+                        DateOfBirth = entity.DateOfBirth,
+                        Age = entity.Age,
+                        Weight = entity.Weight,
+                        HeightFeet = entity.HeightFeet,
+                        HeightInches = entity.HeightInches,
+                        BMI = entity.BMI,
+                        PhysicalDate = entity.PhysicalDate,
+                        DrAppt = entity.DrAppt,
+                        DrName = entity.DrName,
+                        Medications = entity.Medications,
+                        Illnesses = entity.Illnesses,
+                        Immunizations = entity.Immunizations,
+                        DaysExercised = entity.DaysExercised,
+                        HoursExercised = entity.HoursExercised,
+                        HrsSleep = entity.HrsSleep,
+                    };
             }
+        }
+        public bool UpdateHealthRecord(HealthEdit model)
+        {
+            using (var ctx = new Models.DbContext())
+            {
+                var entity =
+                    ctx
+                    .HealthRecords
+                    .Single(e => e.RecordId == model.RecordId && e.UserId == _userId);
+                entity.RecordId = model.RecordId;
+                entity.UserId = model.UserId;
+                entity.FirstName = model.FirstName;
+                entity.LastName = model.LastName;
+                entity.DateOfBirth = model.DateOfBirth;
+                entity.Age = model.Age;
+                entity.Weight = model.Weight;
+                entity.HeightFeet = model.HeightFeet;
+                entity.HeightInches = model.HeightInches;
+                entity.BMI = model.BMI;
+                entity.PhysicalDate = model.PhysicalDate;
+                entity.DrAppt = model.DrAppt;
+                entity.DrName = model.DrName;
+                entity.Medications = model.Medications;
+                entity.Illnesses = model.Illnesses;
+                entity.Immunizations = model.Immunizations;
+                entity.DaysExercised = model.DaysExercised;
+                entity.HoursExercised = model.HoursExercised;
+                entity.HrsSleep = model.HrsSleep;
+                return ctx.SaveChanges() == 1;
+            }
+        }
+        public bool DeleteHealthRecord(int recordId)
+        {
+            using (var ctx = new Models.DbContext())
+            {
+                var entity =
+                    ctx
+                    .HealthRecords
+                    .Single(e => e.RecordId == recordId && e.UserId == _userId);
 
+                ctx.HealthRecords.Remove(entity);
+
+                return ctx.SaveChanges() == 1;
+            }
         }
     }
 }
