@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyHealthTracker.Data
+namespace MyHealthTracker.Models
 {
-    public class Health
+    public class HealthCrud
     {
+        public int RecordId { get; set; }
+        public Guid OwnerId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
@@ -21,11 +23,9 @@ namespace MyHealthTracker.Data
         public string DrName { get; set; }
         public string Medications { get; set; }
         public string Illnesses { get; set; }
+        public string Immunizations { get; set; }
         public decimal DaysExercised { get; set; }
         public decimal HoursExercised { get; set; }
         public decimal HrsSleep { get; set; }
-
-
-
     }
 }
