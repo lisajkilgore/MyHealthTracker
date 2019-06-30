@@ -1,0 +1,5 @@
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Services\bin\Debug\MyHealthTracker.Services.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Services\bin\Debug\MyHealthTracker.Services.pdb
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Services\obj\Debug\MyHealthTracker.Services.csproj.CoreCompileInputs.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Services\obj\Debug\MyHealthTracker.Services.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Services\obj\Debug\MyHealthTracker.Services.pdb

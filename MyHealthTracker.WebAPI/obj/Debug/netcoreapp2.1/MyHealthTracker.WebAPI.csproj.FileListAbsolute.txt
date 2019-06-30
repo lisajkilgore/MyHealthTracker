@@ -1,0 +1,15 @@
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\bin\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.deps.json
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\bin\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.runtimeconfig.json
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\bin\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.runtimeconfig.dev.json
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\bin\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\bin\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.pdb
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.csprojAssemblyReference.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.csproj.CoreCompileInputs.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.RazorAssemblyInfo.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.RazorAssemblyInfo.cs
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.AssemblyInfoInputs.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.AssemblyInfo.cs
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.WebAPI\obj\Debug\netcoreapp2.1\MyHealthTracker.WebAPI.pdb

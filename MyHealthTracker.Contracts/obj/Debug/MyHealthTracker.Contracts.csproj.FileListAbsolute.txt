@@ -1,0 +1,6 @@
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Contracts\bin\Debug\MyHealthTracker.Contracts.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Contracts\bin\Debug\MyHealthTracker.Contracts.pdb
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Contracts\obj\Debug\MyHealthTracker.Contracts.csprojAssemblyReference.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Contracts\obj\Debug\MyHealthTracker.Contracts.csproj.CoreCompileInputs.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Contracts\obj\Debug\MyHealthTracker.Contracts.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Contracts\obj\Debug\MyHealthTracker.Contracts.pdb
