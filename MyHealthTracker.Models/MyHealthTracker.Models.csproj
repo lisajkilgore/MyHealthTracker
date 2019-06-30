@@ -44,8 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HealthDetail.cs" />
+    <Compile Include="HealthEdit.cs" />
     <Compile Include="HealthContext.cs" />
-    <Compile Include="HealthCrud.cs" />
+    <Compile Include="HealthCreate.cs" />
+    <Compile Include="HealthListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

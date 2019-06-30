@@ -18,11 +18,11 @@ namespace MyHealthTracker.Services
             _userId = userId;
         }
 
-        public bool CreateHealthRecord(HealthCrud model)
+        public bool CreateHealthRecord(HealthCreate model)
         {
-            using (var ctx = new Models.DbContext())
+            using (Models.DbContext ctx = new Models.DbContext())
             {
-                var healthRecord = new HealthRecord()
+                HealthRecord healthRecord = new HealthRecord()
                 {
                     RecordId = model.RecordId,
                     UserId = model.UserId,
@@ -45,11 +45,57 @@ namespace MyHealthTracker.Services
                     HrsSleep = model.HrsSleep,
                 };
                 ctx.HealthRecords.Add(healthRecord);
-                return ctx.SaveChanges() == 1; 
-
+                return ctx.SaveChanges() == 1;
             }
         }
+        public IEnumerable<HealthCreate> GetHealthRecord()
+        {
+            using (var ctx = new Models.DbContext())
+            {
+                var query =
+                    ctx
+                    .HealthRecords
+                    .Where(e => e.UserId == _userId)
+                    .Select(
+                        e =>
+                        new HealthCreate
+                        {
+                            RecordId = e.RecordId,
+                            UserId = e.UserId,
+                            FirstName = e.FirstName,
+                            LastName = e.LastName,
+                            DateOfBirth = e.DateOfBirth,
+                            Age = e.Age,
+                            Weight = e.Weight,
+                            HeightFeet = e.HeightFeet,
+                            HeightInches = e.HeightInches,
+                            BMI = e.BMI,
+                            PhysicalDate = e.PhysicalDate,
+                            DrAppt = e.DrAppt,
+                            DrName = e.DrName,
+                            Medications = e.Medications,
+                            Illnesses = e.Illnesses,
+                            Immunizations = e.Immunizations,
+                            DaysExercised = e.DaysExercised,
+                            HoursExercised = e.HoursExercised,
+                            HrsSleep = e.HrsSleep,
+                        }
+                        );
+                return query.ToArray();
+            }
+        }
+        public HealthCreate GetHealthRecordbyId(int recordId)
+        {
+            using (var ctx = new Models.DbContext())
+            {
+                var entity =
+                    ctx
+                    .HealthRecords
+                    .Single(e => e.RecordId == recordId && e.UserId == _userId);
+                return
+                    new HealthCreate
+            }
 
+        }
     }
 }
-
