@@ -3,3 +3,9 @@ C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTra
 C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.csproj.CoreCompileInputs.cache
 C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.dll
 C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.pdb
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\bin\Debug\MyHealthTracker.Models.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\bin\Debug\MyHealthTracker.Models.pdb
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.csprojAssemblyReference.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.csproj.CoreCompileInputs.cache
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.pdb

@@ -1,14 +1,13 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MyHealthTracker.Data
 {
     public class Health
     {
-        
-        public int RecordId { get; set; }
-        public Guid OwnerId { get; set; }
-        
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
@@ -24,6 +23,9 @@ namespace MyHealthTracker.Data
         public string Illnesses { get; set; }
         public decimal DaysExercised { get; set; }
         public decimal HoursExercised { get; set; }
-        public decimal HrsSleep { get; set; }               
+        public decimal HrsSleep { get; set; }
+
+
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj": {}
+    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj": {
+    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj",
+        "projectUniqueName": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj",
         "projectName": "MyHealthTracker.WebAPI",
-        "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj",
+        "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj",
         "packagesPath": "C:\\Users\\Jason McIntosh\\.nuget\\packages\\",
-        "outputPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker.WebAPI\\obj\\",
+        "outputPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
