@@ -9,3 +9,9 @@ C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTra
 C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.csproj.CoreCompileInputs.cache
 C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.dll
 C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.pdb
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\bin\Debug\MyHealthTracker.Data.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\bin\Debug\System.Collections.Immutable.dll
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\bin\Debug\MyHealthTracker.Data.pdb
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Eleven Fifty Academy\DotNetProjects\Graduation\MyHealthTrackerApp\MyHealthTracker-BackEnd\MyHealthTracker.Models\obj\Debug\MyHealthTracker.Models.csproj.CopyComplete

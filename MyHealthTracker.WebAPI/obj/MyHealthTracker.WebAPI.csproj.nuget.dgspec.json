@@ -4,6 +4,82 @@
     "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj": {}
   },
   "projects": {
+    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Contracts\\MyHealthTracker.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Contracts\\MyHealthTracker.Contracts.csproj",
+        "projectName": "MyHealthTracker.Contracts",
+        "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Contracts\\MyHealthTracker.Contracts.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj",
+        "projectName": "MyHealthTracker.Data",
+        "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Models\\MyHealthTracker.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Models\\MyHealthTracker.Models.csproj",
+        "projectName": "MyHealthTracker.Models",
+        "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Models\\MyHealthTracker.Models.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj": {
+                "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Services\\MyHealthTracker.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Services\\MyHealthTracker.Services.csproj",
+        "projectName": "MyHealthTracker.Services",
+        "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Services\\MyHealthTracker.Services.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj": {
+                "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj"
+              },
+              "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Models\\MyHealthTracker.Models.csproj": {
+                "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Models\\MyHealthTracker.Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Tests\\MyHealthTracker.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Tests\\MyHealthTracker.Tests.csproj",
+        "projectName": "MyHealthTracker.Tests",
+        "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Tests\\MyHealthTracker.Tests.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.WebAPI\\MyHealthTracker.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,7 +105,23 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Contracts\\MyHealthTracker.Contracts.csproj": {
+                "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Contracts\\MyHealthTracker.Contracts.csproj"
+              },
+              "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj": {
+                "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Data\\MyHealthTracker.Data.csproj"
+              },
+              "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Models\\MyHealthTracker.Models.csproj": {
+                "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Models\\MyHealthTracker.Models.csproj"
+              },
+              "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Services\\MyHealthTracker.Services.csproj": {
+                "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Services\\MyHealthTracker.Services.csproj"
+              },
+              "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Tests\\MyHealthTracker.Tests.csproj": {
+                "projectPath": "C:\\Eleven Fifty Academy\\DotNetProjects\\Graduation\\MyHealthTrackerApp\\MyHealthTracker-BackEnd\\MyHealthTracker.Tests\\MyHealthTracker.Tests.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +152,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
             }
           },
           "imports": [
