@@ -28,21 +28,21 @@ namespace MyHealthTracker.WebAPI
 
         // This method gets called by the runtime. Use this method to add services to the 
         //container.
-        public void ConfigureServices(IServiceCollection services)
+        /*public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Models.DbContext>(opt =>
                 opt.UseInMemoryDatabase("HealthList"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
-
+        */
         // This method gets called by the runtime. Use this method to add services to the container.
-      /*  public void Configure(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
             services.AddAuthentication(AzureADB2CDefaults.BearerAuthenticationScheme)
-                .AddAzureADB2CBearer(options => Configuration.Bind("AzureAdB2C", options));
+            .AddAzureADB2CBearer(options => Configuration.Bind("AzureAdB2C", options));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
-    */
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
